@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.autosuggestField({
+  label: "API Key"|t('convergine-postageapp'),
+  instructions: "The PostageApp API key."|t('convergine-postageapp'),
+  id: 'api_key',
+  name: 'api_key',
+  value: adapter.api_key,
+  suggestEnvVars: true,
+  errors: adapter.getErrors('api_key')
+}) }}

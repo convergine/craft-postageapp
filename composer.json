@@ -1,0 +1,43 @@
+{
+    "name": "convergine/craft-postageapp",
+    "description": "PostageApp mailer adapter for Craft CMS.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craftcms",
+        "postageapp",
+        "mailer",
+        "mailer adapter"
+    ],
+    "support": {
+        "issues": "https://github.com/convergine/craft-postageapp/issues?state=open",
+        "source": "https://github.com/convergine/craft-postageapp",
+        "docs": "https://github.com/convergine/craft-postageapp/blob/master/README.md",
+        "support": {
+            "email": "info@convergine.com"
+        }
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Convergine Corp.",
+            "homepage": "https://www.convergine.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "convergine\\postageapp\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "PostageApp",
+        "handle": "convergine-postageapp",
+        "hasCpSettings": true,
+        "hasCpSection": true,
+        "changelogUrl": "https://github.com/convergine/craft-postageapp/blob/master/CHANGELOG.md",
+        "class": "convergine\\postageapp\\PostageAppPlugin"
+    }
+}
