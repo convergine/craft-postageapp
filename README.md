@@ -1,4 +1,4 @@
-# PostageApp for Craft CMS 4
+# PostageApp for Craft CMS 4 / Craft CMS 5
 
 This plugin provides a [PostageApp](http://www.postageapp.com/) integration for [Craft CMS](https://craftcms.com/).
 
